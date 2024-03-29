@@ -1,0 +1,157 @@
+
+.attribution { font-size: 11px; text-align: left; ;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+*{
+    border-radius: 7px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit";
+   
+}
+
+html, body {
+    height: 100%;
+}
+
+.picture {
+    border-radius: 7px;
+    margin-bottom: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.equi {
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Outfit";
+}
+
+.equi:hover {
+    color: aqua;
+}
+.body {
+    background-color: hsl(217, 54%, 11%);
+}
+.explanation {
+    font-size: 16px;
+    font-family: "Outfit";
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+
+.container {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 14px;
+    padding-block: 30px;
+    padding-inline: 30px;
+}
+
+.wrapper {
+    height: 100%;
+    place-items: center;
+    display: grid;
+}
+
+.eth{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 5px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    border-radius: 0;
+    font-weight: 600;
+    font-family: "Outfit";
+}
+
+.val {
+    color: hsl(178, 100%, 50%);
+    font-size: 18px;
+    font-family: "Outfit";
+}
+
+.eth-img {
+    height: 18px;
+    width: 10px;
+    margin-right: 5px;
+    margin-bottom: -3px;
+}
+.day {
+    color: hsl(215, 51%, 70%);
+    font-family: "Outfit";
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.day-img {
+    height: 18px;
+    width: auto;
+    margin-right: 4px;
+    margin-bottom: -3px;
+}
+
+.jul {
+    color: hsl(0, 0%, 100%);
+    font-weight: 300;
+}
+
+.jul:hover {
+    color: aqua;
+}
+.create {
+    color:hsl(215, 51%, 70%) ;
+    font-size: 16px;
+}
+
+.avadiff {
+    display: flex;
+    padding-inline: 5px;
+    padding-bottom: 20px;
+    align-items: center;
+    font-weight: 600;
+    font-family: "Outfit";
+    gap: 20px;
+}
+
+.ava {
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+
+}
+
+.pic-container {
+
+    height: 200px;
+    width: 100%;
+    background-image: url("images/image-equilibrium.jpg");
+    background-size: cover;
+    background-position-y: 50%;
+    position: relative;
+    
+}
+
+.eye {
+
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color:hsl(178, 100%, 50%);;
+    opacity: 0.4;
+    display: grid;
+    place-items: center;
+    visibility: hidden;
+}
+
+
+.pic-container:hover .eye {
+    visibility: visible;
+}
+
